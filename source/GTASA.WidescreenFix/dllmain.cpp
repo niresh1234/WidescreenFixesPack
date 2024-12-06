@@ -1010,7 +1010,7 @@ void InstallFrontendFixes()
     injector::MakeCALL(0x574F54, DrawBarChartHook);
 
     // Fix video player.
-    injector::MakeJMP(0x7466D0, VideoPlayerShowHook);
+    //injector::MakeJMP(0x7466D0, VideoPlayerShowHook);
 }
 
 void InstallMiscFixes()
