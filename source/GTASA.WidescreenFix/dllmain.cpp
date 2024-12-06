@@ -1600,7 +1600,7 @@ void Init()
     InstallMiscFixes();
     InstallHUDFixes();
     InstallSCMDrawingFixes();
-    Install2dSpriteFixes();
+    //Install2dSpriteFixes();
 }
 
 void CompatWarning()
