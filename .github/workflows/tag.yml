@@ -207,7 +207,7 @@ jobs:
           echo "project_name=${{ env[inputs.tag_name] }}" >> $GITHUB_OUTPUT
   call-workflow-passing-data:
     needs: setup_project_name
-    uses: ThirteenAG/WidescreenFixesPack/.github/workflows/all.yml@master
+    uses: niresh1234/WidescreenFixesPack/.github/workflows/all.yml@master
     with:
       tag_list: ${{ inputs.tag_name }}
       project: ${{ needs.setup_project_name.outputs.project_name }}
