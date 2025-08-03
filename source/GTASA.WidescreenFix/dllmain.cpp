@@ -417,7 +417,7 @@ void UpdateHUDFixes()
     fHUDWidth[105] = 0.0015625f * fWideScreenWidthScale;
 
 
-    fHUDWidth[110] = RsGlobal->MaximumWidth * 0.17343046f * fWideScreenWidthScale * fHudWidthScale;
+    fHUDWidth[110] = RsGlobal->MaximumWidth * 0.17343046f * fWideScreenWidthScale;
 
     fHUDHeight[0] = 0.002232143f * fWideScreenHeightScale;
     fHUDHeight[1] = 0.002232143f * fWideScreenHeightScale;
